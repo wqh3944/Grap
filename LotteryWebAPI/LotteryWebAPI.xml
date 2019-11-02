@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LotteryWebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:LotteryWebAPI.Controllers.ValuesController.Get(System.String,System.String)">
+            <summary>
+            根据彩种和期数获取开奖结果
+            </summary>
+            <param name="lottery">彩种</param>
+            <param name="no">期数</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

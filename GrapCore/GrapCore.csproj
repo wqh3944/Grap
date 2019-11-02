@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="MySql.Data" Version="8.0.18" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="78.0.3904.7000" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controller\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>F:\InstallPackage\HtmlAgilityPack分析工具\HtmlAgilityPack分析工具\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
